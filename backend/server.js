@@ -21,11 +21,11 @@ const options = {
     definition: {
       openapi: '3.0.0',
       info: {
-        title: 'Ecommerce API',
+        title: 'Employee Feedback API',
         version: '1.0.0',
       },
     },
-    apis: ['./Routers/*.js'], // files containing annotations as above
+    apis: ['./routers/*.js'], // files containing annotations as above
   };
 
   const specification = swaggerJsdoc(options);
