@@ -71,20 +71,20 @@ To get started with the Employee Feedback App, follow these steps:
 
 ### Employees
 
-- **GET /employees:** Retrieve all employees.
-- **GET /employees/:id:** Retrieve an employee by ID.
-- **POST /employees:** Create a new employee.
-- **PUT /employees/:id:** Update an employee by ID.
-- **DELETE /employees/:id:** Delete an employee by ID.
+- **GET /employee:** Retrieve all employees.
+- **GET /employee/:id:** Retrieve an employee by ID.
+- **POST /employee/add:** Create a new employee.
+- **PUT /employee/update/:id:** Update an employee by ID.
+- **DELETE /employee/delete/:id:** Delete an employee by ID.
 
 ### Performance Reviews
 
-- **GET /reviews:** Retrieve all performance reviews.
-- **GET /reviews/:id:** Retrieve a performance review by ID.
-- **POST /reviews:** Create a new performance review.
-- **PUT /reviews/:id:** Update a performance review by ID.
-- **DELETE /reviews/:id:** Delete a performance review by ID.
-- **PUT /reviews/:id/participants:** Assign employees to participate in a performance review.
+- **GET /review:** Retrieve all performance reviews.
+- **GET /review/:id:** Retrieve a performance review by ID.
+- **POST /review/add:** Create a new performance review.
+- **PUT /review/update/:id:** Update a performance review by ID.
+- **DELETE /review/delete/:id:** Delete a performance review by ID.
+- **PUT /review/:id/participants:** Assign employees to participate in a performance review.
 
 ### Feedback
 
